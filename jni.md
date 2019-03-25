@@ -1,9 +1,9 @@
-之前看的东西都忘记了，引以为戒，记录下来，
-刚好把jni的内容都学一下
-一个非常详细的教程
+一个学习JNI的教程，讲了原理和API，想了解
+JNI机制的话可以看看
 https://www.jianshu.com/p/35848c03f2d5
 
-这里以c语言为例(因为坑太多orz)
+下面的例子大多是c语言，少部分为c++。
+
 ### 1.快速上手
 先附上一个简单易懂的入门教程
 https://blog.csdn.net/danielpei1222/article/details/62462497
