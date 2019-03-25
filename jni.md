@@ -9,7 +9,7 @@ https://www.jianshu.com/p/35848c03f2d5
 https://blog.csdn.net/danielpei1222/article/details/62462497
 这个主要是讲解一下流程。
 需要注意的是，这里生成的dll是32位的，而我们需要的是
-64位的系统，在vs界面有有一个解决方案平台，默认是x32，点击选择配置，
+64位的dll，在vs界面有有一个解决方案平台，默认是x32，点击选择配置，
 然后新建-从win32复制即可，生成的dll文件在x64\Debug文件夹下
 具体教程见：
 https://blog.csdn.net/woainishifu/article/details/54017550
