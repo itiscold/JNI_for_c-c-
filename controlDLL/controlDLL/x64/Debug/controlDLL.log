@@ -1,0 +1,17 @@
+﻿生成启动时间为 2019/3/20 10:23:38。
+     1>项目“E:\files\visual studio 2012\controlDLL\controlDLL\controlDLL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CONTROLDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TC /errorReport:prompt controller.c tool.c
+         tool.c
+     1>tool.c(40): warning C4244: “=”: 从“jint”转换到“int8_t”，可能丢失数据
+         controller.c
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\files\visual studio 2012\controlDLL\x64\Debug\controlDLL.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\files\visual studio 2012\controlDLL\x64\Debug\controlDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\files\visual studio 2012\controlDLL\x64\Debug\controlDLL.lib" /MACHINE:X64 /DLL x64\Debug\controller.obj
+         x64\Debug\tool.obj
+         controlDLL.vcxproj -> E:\files\visual studio 2012\controlDLL\x64\Debug\controlDLL.dll
+     1>已完成生成项目“E:\files\visual studio 2012\controlDLL\controlDLL\controlDLL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.38
